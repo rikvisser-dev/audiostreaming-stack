@@ -65,7 +65,7 @@
 - Reference the related issue when one exists.
 - Update `README.md` when user-visible behavior or configuration changes.
 - Do not mix unrelated refactors into operational changes, especially across multiple services.
-- Changes to runtime behavior should stay consistent with the canonical docs at `https://docs.sonicverse.eu`.
+- Changes to runtime behavior should stay consistent with the canonical docs at `https://docs.sonicverse.tech`.
 
 ## Common Pitfalls
 
@@ -79,4 +79,4 @@
 
 - Ignore generated dependency trees and installed artifacts such as `node_modules`.
 - Do not request large architectural rewrites when a service-local fix is sufficient.
-- Do not treat external setup/operations docs as duplicative drift unless the PR actually changes repo behavior; `docs.sonicverse.eu` is the source of truth for ops guidance.
+- Do not treat external setup/operations docs as duplicative drift unless the PR actually changes repo behavior; `docs.sonicverse.tech` is the source of truth for ops guidance.
