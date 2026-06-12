@@ -182,6 +182,11 @@ trap stop_services EXIT TERM INT
 start_service icecast icecast2 -c /etc/icecast2/icecast.xml
 wait_for_url icecast "http://127.0.0.1:8000/status-json.xsl"
 
+if [[ "$STATUS_PANEL_ENABLED" == "1" ]]; then
+    start_service status-api bash -c \
+        'cd /opt/sonicverse/status-api && exec gunicorn --bind 127.0.0.1:8080 --workers 2 --timeout 30 server:app'
+fi
+
 start_service liquidsoap liquidsoap /etc/liquidsoap/radio.liq
 start_service nginx nginx -g "daemon off;"
 start_service certificate-watch watch_certificate_updates
