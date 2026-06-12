@@ -172,7 +172,7 @@ Enable optional analytics with:
 Once configured, update:
 
 1. **README.md** - Add quick install section
-2. **docs.sonicverse.eu** - Link to short URL
+2. **docs.sonicverse.tech** - Link to short URL
 3. **Presentation slides** - Use memorable short link
 4. **Chat/forums** - Easier sharing
 

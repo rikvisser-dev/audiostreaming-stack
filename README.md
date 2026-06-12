@@ -15,9 +15,9 @@ Self-hosted Docker Compose stack for live radio streaming. Ingest from any studi
 
 For setup, operations, and troubleshooting, use the official Sonicverse docs as the single source of truth:
 
-**https://docs.sonicverse.eu**
+**https://docs.sonicverse.tech**
 
-This repository README is a quick project overview. If local instructions differ from the external docs, follow docs.sonicverse.eu.
+This repository README is a quick project overview. If local instructions differ from the external docs, follow docs.sonicverse.tech.
 
 Contributing to this project means following the [Code of Conduct](CODE_OF_CONDUCT.md).
 

@@ -549,7 +549,7 @@ if [[ "${SKIP_ENV}" != "true" ]]; then
     # PostHog
     echo ""
     prompt POSTHOG_API_KEY  "PostHog API key (leave empty to skip analytics)" ""
-    prompt POSTHOG_HOST     "PostHog host" "https://posthog.sonicverse.eu"
+    prompt POSTHOG_HOST     "PostHog host" "https://posthog.sonicverse.tech"
     prompt POSTHOG_POLL_INTERVAL "Analytics poll interval (seconds)" "30"
 
     # Ports
