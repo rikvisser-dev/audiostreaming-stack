@@ -79,7 +79,11 @@ watch_certificate_updates() {
             last_marker="$current_marker"
             log "Certificate update detected; reloading nginx"
             write_nginx_config
-            nginx -t && nginx -s reload
+            if nginx -t; then
+                nginx -s reload
+            else
+                log "nginx config test failed; skipping reload until next marker change"
+            fi
         fi
     done
 }
