@@ -10,7 +10,7 @@ assignees: []
 
 <!-- A clear description of what is wrong. -->
 
-Reference the relevant docs page when possible: https://docs.sonicverse.eu
+Reference the relevant docs page when possible: https://docs.sonicverse.tech
 
 ## Steps to reproduce
 

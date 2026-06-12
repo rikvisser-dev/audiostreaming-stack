@@ -2,8 +2,8 @@
 
 This repository accepts AI-assisted changes, but agents should follow the same standards as human contributors in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Primary project documentation is maintained at **https://docs.sonicverse.eu** and should be treated as the source of truth for setup and operations.
-MCP documentation: **https://docs.sonicverse.eu/mcp**
+Primary project documentation is maintained at **https://docs.sonicverse.tech** and should be treated as the source of truth for setup and operations.
+MCP documentation: **https://docs.sonicverse.tech/mcp**
 
 Task tracking for this repository uses GitHub Issues. When work is tied to an issue, reference the GitHub issue number in branch names, commits, and pull requests where appropriate.
 

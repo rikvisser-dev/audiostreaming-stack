@@ -21,7 +21,7 @@ Participants in this project are expected to:
 
 ## Reporting
 
-Report conduct issues to `oss@sonicverse.eu`.
+Report conduct issues to `oss@sonicverse.tech`.
 
 This inbox is maintained by `@rikvisser-dev` from Sonicverse.
 

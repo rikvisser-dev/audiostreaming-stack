@@ -5,7 +5,7 @@ Thank you for your interest in contributing. This document covers how to get sta
 > [!WARNING]
 > **Early Development — Not Production Ready.** This project is under active development. APIs, configuration, and behaviour may change without notice.
 
-Primary documentation lives at **https://docs.sonicverse.eu**. Use it as the canonical source for setup and operational guidance.
+Primary documentation lives at **https://docs.sonicverse.tech**. Use it as the canonical source for setup and operational guidance.
 
 Task tracking for this repository uses GitHub Issues. Prefer opening or linking a GitHub issue for bugs, feature work, and follow-up tasks so PRs stay connected to the active record of work.
 
